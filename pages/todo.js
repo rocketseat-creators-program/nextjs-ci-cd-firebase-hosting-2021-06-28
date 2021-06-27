@@ -7,7 +7,7 @@ export const getStaticProps = async () => {
 }
 
 const Todo = (props) => (
-    <>TODO ID: {props.id}</>
+    <>NEW TODO ID: {props.id}</>
 )
 
 export default Todo
