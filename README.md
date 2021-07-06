@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-## Getting Started
+# Fazendo deploy de uma aplicação NextJS usando Firebase Hosting
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Na aula de hoje vamos falar sobre CI/CD de aplicações NextJS utilizando Firebase Hosting e a feature Preview Channels. Serão utilizadas três ferramentas principais durante o vídeo: Github Actions que é uma plataforma de CI/CD do Github que facilitará a automatização do código, a integração e a disponibilização da aplicação em produção/staging; NextJS que é um framework que reúne as melhores práticas e configurações do mercado para as aplicações React e o Firebase hosting que será o local onde vamos hospedar a nossa aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Requisitos:
+ - NodeJs v14
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Como rodar:
+ - `npm install`
+ - `npm run dev`
 
-## Learn More
+## Como fazer o build:
+ - `npm run build`
 
-To learn more about Next.js, take a look at the following resources:
+## Como fazer o deploy:
+ - `firebase deploy`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Referência:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - [NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
+ - [Firebase Hosting](https://firebase.google.com/docs/hosting)
+ - [GitHub Actions](https://docs.github.com/en/actions)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Expert
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| [<img src="https://avatars.githubusercontent.com/u/3427262?v=4" width="75px;"/>](https://github.com/paulopaquielli) |
+| :-: |
+|[Paulo Duarte](https://github.com/paulopaquielli)|
+
